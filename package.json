@@ -1,0 +1,52 @@
+{
+  "name": "eventmacro-syntax",
+  "displayName": "eventMacro Syntax Highlighter",
+  "description": "Syntax highlighting para scripts eventMacro do OpenKore",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "eventmacro",
+        "aliases": [
+          "eventmacro",
+          "eventMacro",
+          "eventmacros",
+          "eventMacros",
+          "OpenKore eventMacro"
+        ],
+        "filenames": [
+          "eventMacros.txt"
+        ],
+        "extensions": [
+          ".event"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "eventmacro",
+        "scopeName": "source.eventmacro",
+        "path": "./syntaxes/eventmacro.tmLanguage.json"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "eventmacro",
+        "path": "./snippets/eventmacro.code-snippets"
+      }
+    ]
+  },
+  "main": "./extension.js",
+  "dependencies": {
+    "vscode-languageclient": "^9.0.1",
+    "vscode-languageserver": "^9.0.1",
+    "vscode-languageserver-textdocument": "^1.0.12"
+  }
+}
