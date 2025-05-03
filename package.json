@@ -3,6 +3,7 @@
   "displayName": "eventMacro Syntax Highlighter",
   "description": "Syntax highlighting para scripts eventMacro do OpenKore",
   "version": "1.0.0",
+  "publisher": "OpenKore",
   "repository": {
     "type": "git",
     "url": "https://github.com/alisonrag/vsce-eventmacro-language-support"
