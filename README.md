@@ -31,7 +31,7 @@ Initial release of extension
 Or install via CLI:
 
 ```bash
-code --install-extension yourpublisher.eventmacro-highlighter
+code --install-extension OpenKore.eventmacro-syntax
 ```
 
 ---
